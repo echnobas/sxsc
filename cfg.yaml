@@ -1,0 +1,16 @@
+copyright: Echnobas (c)
+package: Echnobas-CommonSense-Antivirus-Package
+target_arch: amd64
+version: 1.0.0.3
+updates:
+  - target_component: Windows-Defender-Service
+    target_arch: amd64
+    version: 420.69.0.0
+    registry_keys:
+      - key_name: >-
+          HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Notifications
+        perUserVirtualization: false
+        values:
+          - key: DisableNotifications
+            type: REG_DWORD
+            value: 1

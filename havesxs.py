@@ -1,5 +1,5 @@
 # havesxs.py
-# Copyright (C) 2021  uwuowouwu420
+# Copyright (C) 2021 whatever127 awuctl
 
 import re
 
