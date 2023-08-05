@@ -36,8 +36,8 @@ class Update:
     def generate_component_manifest(self):
         registry_entries = []
         if self.registry_keys:
-            registry_values = []
             for registry_key in self.registry_keys:
+                registry_values = []
                 for registry_value in registry_key['values']:
                     registry_values.append(f"""<registryValue name="{registry_value['key']}" valueType="{registry_value['type']}" value="{registry_value['value']}" />""")
                 registry_values = '\n'.join(registry_values)
