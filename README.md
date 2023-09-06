@@ -17,7 +17,7 @@ stolenbytes
 # gullible installer
 microsoft "developers" are a little goofy sometimes  
   
-note: microsoft developers are meant to disable the ts functionality through a fucking compiler flag but they're either incompetent or too lazy  
+note: microsoft developers are meant to disable the ts functionality through a compiler flag
 
 references:  
 he3als  
